@@ -1,0 +1,8 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+Sum=a+b+c
+avg=Sum/3
+print("%d %.2f"% (Sum,avg))
+print(Sum,format(avg,".2f"))
