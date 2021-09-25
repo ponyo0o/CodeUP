@@ -1,0 +1,6 @@
+a,b=input().split()
+a=bool(int(a))
+b=bool(int(b))
+print(not a and not b) #내가 한것
+print( not (c or d) )
+print( c==False and d==False )
