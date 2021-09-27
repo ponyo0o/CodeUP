@@ -1,0 +1,10 @@
+i=int(input())
+for i in range(0,i+1):  #for문
+    print(i)
+
+
+i=int(input())
+k=0
+while k<=i:  #while문
+    print(k)
+    k+=1
