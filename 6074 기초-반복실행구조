@@ -1,0 +1,11 @@
+c=ord(input())
+
+for i in range(ord('a'),c+1): #for문
+    print(chr(i),end=' ')
+
+
+a1=ord(input()) #while문
+a2=ord('a')
+while a1>=a2:
+    print(chr(a2),end=' ')
+    a2+=1
