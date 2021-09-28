@@ -1,0 +1,6 @@
+i=1
+while i:
+    a= input()
+    print(a)
+    if a=='q':
+        break
