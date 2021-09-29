@@ -1,0 +1,17 @@
+a,r,n=input().split()
+a=int(a)
+r=int(r)
+n=int(n)
+
+# i=0
+# while i!=n:          #while방법
+#     i+=1
+#     if i==n:
+#         print(a)
+#     a*=r
+
+
+for i in range(1,n):  #for방법
+    a*=r
+
+print(a)
