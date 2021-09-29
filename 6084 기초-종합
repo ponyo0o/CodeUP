@@ -1,0 +1,6 @@
+h,b,c,s=input().split()
+
+a=int(h)*int(b)*int(c)*int(s)
+b=a/8/1024**2
+
+print("%.1f MB"%b)
