@@ -1,0 +1,19 @@
+a,m,d,n=input().split()
+a=int(a)
+m=int(m)
+d=int(d)
+n=int(n)
+
+for i in range(2,n+1):    #for 풀이
+    a=a*m+d
+
+print(a)
+
+# i=0     
+# while True:       #while 풀이
+#     i+=1
+#     if n==i:
+#         print(a)
+#         break
+#     a=a*m+d
+
