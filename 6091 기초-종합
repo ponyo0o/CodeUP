@@ -1,0 +1,20 @@
+a,b,c=input().split()
+
+a=int(a)
+b=int(b)
+c=int(c)
+
+i=0
+
+while True:
+    i+=1
+    if i%a==0 and i%b==0 and i%c==0:
+        print(i)
+        break
+
+# i=1.  #방법2
+
+# while i%a!=0 or i%b!=0 or i%c!=0:
+#     i+=1
+# print(i)  
+
