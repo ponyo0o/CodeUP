@@ -1,0 +1,16 @@
+n=int(input())
+a=input().split()
+
+for i in range(n):
+    a[i]=int(a[i])
+
+for i in range(n-1,-1,-1):
+    print(a[i],end=' ')
+
+# n=int(input())        #방법2
+# a=list(map(int,input().split()))
+
+# a.reverse()
+
+# for i in range(n):
+#     print(a[i],end=' ')
