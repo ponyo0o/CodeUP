@@ -1,0 +1,20 @@
+b=[]
+
+for i in range(20):
+    b.append([])
+    for j in range(20):
+        b[i].append(0)
+# b=[[0 for j in range(20)]for i in range(20)]  #바로 위의 2중 반복문을 list comprehensions 로 한줄로 만들어준것.
+
+n= int(input())
+for i in range(n):
+    x,y=map(int,input().split())
+    b[x][y]=1
+
+for i in range(1,20):
+    for j in range(1,20):
+        print(b[i][j],end=' ')
+    print()
+    
+
+
